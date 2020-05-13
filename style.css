@@ -1,0 +1,91 @@
+h1 {
+    color : rgb(174, 25, 82);
+    font-family: 'Roboto', sans-serif;
+    font-size : 45px;
+    line-height : 53.76px;
+}
+
+h2 {
+    color : rgb(255, 56, 92);
+    font-family: 'Roboto', sans-serif;
+    font-size : 30px;
+}
+
+h3 {
+    color : rgb(255, 56, 92);
+    font-family: 'Roboto', sans-serif;
+    font-size : 25px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+p {
+    color : rgb(34, 34, 34);
+    font-family: 'Roboto', sans-serif;
+    margin: 17px 0px 40px;
+}
+
+a {
+    text-decoration: none;
+    color : rgb(255, 56, 92);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px
+}
+
+.btn-red {
+    background-color: rgb(174, 25, 82);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+.logo {
+    width: 50px;
+    height: 60px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
